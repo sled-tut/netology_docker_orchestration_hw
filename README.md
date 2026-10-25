@@ -35,3 +35,18 @@ https://hub.docker.com/repository/docker/vkolenikova/custom-nginx/general
 ![](images/задание%205%204.png)
 ![](images/задание%205%205.png)
 ![](images/задание%205%206.png)
+
+compose.yaml
+```
+version: "3"
+include:
+  - docker-compose.yaml
+services:
+  registry:
+    image: registry:2
+
+    ports:
+    - "5000:5000"
+    depends_on:
+      - registry:2
+```
