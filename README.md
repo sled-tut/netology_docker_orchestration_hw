@@ -6,7 +6,7 @@ https://hub.docker.com/repository/docker/vkolenikova/custom-nginx/general
 
 ## Задание 2
 
-![](images/"задание 2 2.png")
+![](images/задание 2%202.png)
 ## Задание 3
 
 ## Задание 4
