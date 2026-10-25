@@ -5,7 +5,7 @@
 https://hub.docker.com/repository/docker/vkolenikova/custom-nginx/general
 
 ## Задание 2
-
+/images/"рисунок 2 1"
 ## Задание 3
 
 ## Задание 4
