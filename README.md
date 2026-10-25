@@ -28,3 +28,10 @@ https://hub.docker.com/repository/docker/vkolenikova/custom-nginx/general
 ![](images/задание%204%204.png)
 
 ## Задание 5
+![](images/задание%205%201.png)
+Контейнер по умолчанию запускает конфиг из файла compose.yaml, так написано в документации. docker-compose.yaml - устаревшее название, поэтому файл с таким именем надо includ'ить принудительно, явно указывая его в compose.yaml.
+![](images/задание%205%202.png)
+![](images/задание%205%203.png)
+![](images/задание%205%204.png)
+![](images/задание%205%205.png)
+![](images/задание%205%206.png)
