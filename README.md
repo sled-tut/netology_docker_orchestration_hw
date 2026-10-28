@@ -42,11 +42,9 @@ version: "3"
 include:
   - docker-compose.yaml
 services:
-  registry:
-    image: registry:2
-
-    ports:
-    - "5000:5000"
-    depends_on:
-      - registry:2
+  portainer:
+    network_mode: host
+    image: portainer/portainer-ce:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
 ```
